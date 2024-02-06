@@ -1,9 +1,9 @@
-import React, { useState, useEffect, createContext, useContext } from 'react';
+import React, { useState, useEffect, createContext, useContext } from "react";
 
 // 1. Set up our breakpoints for our CSS
 export const breakpoints = {
-    isMediumAndUp: '(min-width: 800px)',
-    isLargeAndUp: '(min-width: 1200px)',
+    isMediumAndUp: "(min-width: 800px)",
+    isLargeAndUp: "(min-width: 1200px)",
 };
 
 // 2. Leverage CSS breakpoints in JS
@@ -33,10 +33,10 @@ export const MediaQueryProvider = ({ children }) => {
         evaluateMedia();
 
         // Listen and evaluate on resize
-        window.addEventListener('resize', evaluateMedia);
+        window.addEventListener("resize", evaluateMedia);
         return () => {
             // Remove listener on dismount
-            window.removeEventListener('resize', evaluateMedia);
+            window.removeEventListener("resize", evaluateMedia);
         };
     }, []);
 

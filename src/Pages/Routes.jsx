@@ -7,6 +7,8 @@ import "@/common/css/global.scss";
 // layout
 import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 
+import { MediaQueryProvider } from "@/Common/useMediaQuery.jsx";
+
 // page components
 import Home from "./Home";
 import Staff from "./Staff";
@@ -21,22 +23,30 @@ import ResonsiveDesign from "./CourseWork/ResponsiveDesign.jsx";
 const MyRoutes = () => {
     return (
         <HashRouter>
-            <Routes>
-                <Route element={<PagesLayout />}>
-                    <Route element={<Home />} path="" />
-                    <Route element={<Staff />} path="staff" />
-                    <Route element={<Contact />} path="contact" />
+            <MediaQueryProvider>
+                <Routes>
+                    <Route element={<PagesLayout />}>
+                        <Route element={<Home />} path="" />
+                        <Route element={<Staff />} path="staff" />
+                        <Route element={<Contact />} path="contact" />
 
-                    <Route element={<CourseWorkLayout />} path="course-work">
-                        <Route element={<Essays />} path="" />
-                        <Route element={<SunAndMoon />} path="sun-and-moon" />
                         <Route
-                            element={<ResonsiveDesign />}
-                            path="responsive"
-                        />
+                            element={<CourseWorkLayout />}
+                            path="course-work"
+                        >
+                            <Route element={<Essays />} path="" />
+                            <Route
+                                element={<SunAndMoon />}
+                                path="sun-and-moon"
+                            />
+                            <Route
+                                element={<ResonsiveDesign />}
+                                path="responsive"
+                            />
+                        </Route>
                     </Route>
-                </Route>
-            </Routes>
+                </Routes>
+            </MediaQueryProvider>
         </HashRouter>
     );
 };

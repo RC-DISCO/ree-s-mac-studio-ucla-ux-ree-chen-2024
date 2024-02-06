@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const SingleEssay = ({ question, children }) => {
     return (
@@ -10,6 +11,12 @@ const SingleEssay = ({ question, children }) => {
 };
 
 export default SingleEssay;
+
+// prop types
+SingleEssay.propTypes = {
+    question: PropTypes.string.isRequired,
+    children: PropTypes.any,
+};
 
 const SingleEssayStyled = styled.div`
     margin: 20px 0px;
