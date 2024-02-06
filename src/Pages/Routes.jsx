@@ -15,7 +15,7 @@ import Contact from "./Contact";
 // course work page components
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";
 import SunAndMoon from "./CourseWork/SunAndMoon/SunAndMoon.jsx";
-import Essay from "./CourseWork/Essay/Essay.jsx";
+import Essays from "./CourseWork/Essays/Essays.jsx";
 import ResonsiveDesign from "./CourseWork/ResponsiveDesign.jsx";
 
 const MyRoutes = () => {
@@ -28,7 +28,7 @@ const MyRoutes = () => {
                     <Route element={<Contact />} path="contact" />
 
                     <Route element={<CourseWorkLayout />} path="course-work">
-                        <Route element={<Essay />} path="" />
+                        <Route element={<Essays />} path="" />
                         <Route element={<SunAndMoon />} path="sun-and-moon" />
                         <Route
                             element={<ResonsiveDesign />}
