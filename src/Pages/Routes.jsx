@@ -15,7 +15,7 @@ import Contact from "./Contact";
 // course work page components
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";
 import SunAndMoon from "./CourseWork/SunAndMoon/SunAndMoon.jsx";
-import Essay from "./CourseWork/Essay.jsx";
+import Essay from "./CourseWork/Essay/Essay.jsx";
 import ResonsiveDesign from "./CourseWork/ResponsiveDesign.jsx";
 
 const MyRoutes = () => {
