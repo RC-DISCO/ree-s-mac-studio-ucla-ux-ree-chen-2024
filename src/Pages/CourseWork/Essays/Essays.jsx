@@ -8,7 +8,7 @@ const Essay = () => {
 
             <SingleEssay
                 question={
-                    "Explain the difference between HTML, CSS and JavaScript"
+                    "Q1: Explain the difference between HTML, CSS and JavaScript"
                 }
             >
                 <p> HTML (HyperText Markup Language)</p>
@@ -58,7 +58,7 @@ const Essay = () => {
                 </ul>
             </SingleEssay>
             <SingleEssay
-                question={"Q2:What is the difference between Git and Github?"}
+                question={"Q2: What is the difference between Git and Github?"}
             >
                 <p>
                     In the landscape of software development, Git and GitHub are
@@ -69,7 +69,7 @@ const Essay = () => {
 
                 <ul>
                     <p>
-                        <b>Git</b>
+                        <b>Git:</b>
                     </p>
                     <li>
                         <b>Version Control System: </b>Git is a distributed
@@ -98,7 +98,7 @@ const Essay = () => {
                     </li>
 
                     <p>
-                        <b>GitHub</b>
+                        <b>GitHub:</b>
                     </p>
 
                     <li>
@@ -123,7 +123,9 @@ const Essay = () => {
                 </ul>
             </SingleEssay>
             <SingleEssay
-                question={"Q3:What is the difference between JQuery and React?"}
+                question={
+                    "Q3: What is the difference between JQuery and React?"
+                }
             >
                 <p>
                     JQuery and React are both JavaScript libraries, but they
@@ -160,11 +162,112 @@ const Essay = () => {
                     </li>
                 </ul>
             </SingleEssay>
-            <SingleEssay question={"Q4:Sample question..."}>
-                Answer 4 goes here.
+            <SingleEssay
+                question={
+                    "Q4: What is the difference between a Front-End and Back-End Developer?"
+                }
+            >
+                <p>JPG (JPEG) - Joint Photographic Experts Group:</p>
+                <ul>
+                    <li>
+                        <b>Compression: </b>Lossy, which means it reduces file
+                        size by permanently eliminating certain information,
+                        especially in areas of uniform color.
+                    </li>
+                    <li>
+                        <b>Best For: </b>Photographs and realistic images with
+                        smooth variations in color.
+                    </li>
+                    <li>
+                        <b>Transparency:</b> Does not support transparency.
+                    </li>
+                    <li>
+                        <b>Animation:</b> Does not support animation.
+                    </li>
+                </ul>
+                <p>GIF - Graphics Interchange Format:</p>
+                <ul>
+                    <li>
+                        <b>Compression: </b> Lossless, but limited to a
+                        256-color palette, making it unsuitable for full-color
+                        photographs.
+                    </li>
+                    <li>
+                        <b>Best For: </b>Simple animations and graphics with a
+                        small color palette.
+                    </li>
+                    <li>
+                        <b>Transparency:</b> Supports simple transparency by
+                        allowing one color to be marked as transparent.
+                    </li>
+                    <li>
+                        <b>Animation:</b> Supports basic animation.
+                    </li>
+                </ul>
+
+                <p>PNG - Portable Network Graphics:</p>
+                <ul>
+                    <li>
+                        <b>Compression: </b>Lossless, providing high-quality
+                        images but with larger file sizes compared to JPG.
+                    </li>
+                    <li>
+                        <b>Best For: </b>Images that require transparency or
+                        have sharp contrast edges like logos, text, and icons.
+                    </li>
+                    <li>
+                        <b>Transparency:</b> Supports alpha transparency
+                        (varying levels of transparency).
+                    </li>
+                    <li>
+                        <b>Animation:</b> PNG itself does not support animation,
+                        but the APNG (Animated PNG) extension does.
+                    </li>
+                </ul>
+
+                <p>SVG - Scalable Vector Graphics:</p>
+                <ul>
+                    <li>
+                        <b>Compression: </b>Not applicable in the traditional
+                        sense because SVG files are XML-based vector images.
+                    </li>
+                    <li>
+                        <b>Best For: </b>Logos, icons, and illustrations that
+                        need to scale cleanly at any size. Great for responsive
+                        web design.
+                    </li>
+                    <li>
+                        <b>Transparency:</b> Supports transparency.
+                    </li>
+                    <li>
+                        <b>Animation:</b> Can be animated with CSS or
+                        JavaScript.
+                    </li>
+                </ul>
             </SingleEssay>
-            <SingleEssay question={"Q5:Sample question..."}>
+            <SingleEssay
+                question={
+                    "Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?"
+                }
+            >
                 Answer 5 goes here.
+            </SingleEssay>
+            <SingleEssay
+                question={
+                    "Q6: What is the difference between jpg, gif, png and svg images?"
+                }
+            >
+                Answer 6 goes here.
+            </SingleEssay>
+            <SingleEssay
+                question={
+                    "Q7: Define the following Agile roles: Product Manager, Product Owner, Business Analyst, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps"
+                }
+            >
+                Answer 7 goes here.
+            </SingleEssay>
+            <SingleEssay question={"Q8:Sample question..."}>
+                Answer 8 goes here.
             </SingleEssay>
         </EssayStyled>
     );
