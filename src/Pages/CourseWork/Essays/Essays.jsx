@@ -167,7 +167,45 @@ const Essay = () => {
                     "Q4: What is the difference between a Front-End and Back-End Developer?"
                 }
             >
-                Answer 4 goes here.
+                <p>
+                    The terms "Front-End" and "Back-End" Developer describe two
+                    key, distinct areas of expertise in web development,
+                    focusing on the different aspects of creating websites and
+                    web applications. Here's an overview of the differences:
+                </p>
+                <ul>
+                    <li>
+                        <b>Focus: </b>Front-End Developers are concerned with
+                        the client-side of web development, which is what users
+                        interact with directly. Their work involves everything
+                        that a user sees, clicks, or uses on a website or web
+                        application, such as the layout, visuals, and
+                        interactivity.
+                    </li>
+
+                    <li>
+                        <b>Technologies: </b>They primarily use HTML, CSS, and
+                        JavaScript to build the visual interface of a website.
+                        Nowadays, Front-End Developers also work with frameworks
+                        and libraries such as React, Angular, or Vue.js to
+                        create dynamic and responsive designs.
+                    </li>
+
+                    <li>
+                        <b>Responsibilities: </b>
+                        <p>1. Creating responsive website designs.</p>
+                        <p>
+                            2.Implementing design principles to ensure the
+                            website's aesthetics and usability on various
+                            devices.
+                        </p>
+                        <p>3. Ensuring website performance optimization.</p>
+                        <p>
+                            4. Working closely with UX/UI designers to bring web
+                            designs to life.
+                        </p>
+                    </li>
+                </ul>
             </SingleEssay>
             <SingleEssay
                 question={
