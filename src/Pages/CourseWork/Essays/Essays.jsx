@@ -167,6 +167,20 @@ const Essay = () => {
                     "Q4: What is the difference between a Front-End and Back-End Developer?"
                 }
             >
+                Answer 4 goes here.
+            </SingleEssay>
+            <SingleEssay
+                question={
+                    "Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?"
+                }
+            >
+                Answer 5 goes here.
+            </SingleEssay>
+            <SingleEssay
+                question={
+                    "Q6: What is the difference between jpg, gif, png and svg images?"
+                }
+            >
                 <p>JPG (JPEG) - Joint Photographic Experts Group:</p>
                 <ul>
                     <li>
@@ -247,24 +261,120 @@ const Essay = () => {
             </SingleEssay>
             <SingleEssay
                 question={
-                    "Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?"
-                }
-            >
-                Answer 5 goes here.
-            </SingleEssay>
-            <SingleEssay
-                question={
-                    "Q6: What is the difference between jpg, gif, png and svg images?"
-                }
-            >
-                Answer 6 goes here.
-            </SingleEssay>
-            <SingleEssay
-                question={
                     "Q7: Define the following Agile roles: Product Manager, Product Owner, Business Analyst, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps"
                 }
             >
-                Answer 7 goes here.
+                <p>
+                    Agile methodologies, such as Scrum, emphasize flexible,
+                    iterative development and collaboration among
+                    cross-functional teams to deliver products. Each role within
+                    an Agile team has specific responsibilities that contribute
+                    to the project's success. Here are definitions for each
+                    role.
+                </p>
+                <p>Product Manager:</p>
+                <ul>
+                    <li>
+                        Oversees the development and success of a product from a
+                        high-level perspective. They focus on the product's
+                        strategy, roadmap, and feature definition, often
+                        liaising between the stakeholders and the development
+                        team to ensure the product meets business goals and user
+                        needs.
+                    </li>
+                </ul>
+
+                <p>Product Owner:</p>
+                <ul>
+                    <li>
+                        Acts as the liaison between the development team and the
+                        stakeholders. In Scrum, the Product Owner is responsible
+                        for managing the product backlog, prioritizing features,
+                        and ensuring that the team understands the items in the
+                        product backlog to the level needed. They represent the
+                        end users' and customers' interests.
+                    </li>
+                </ul>
+
+                <p>Business Analyst:</p>
+                <ul>
+                    <li>
+                        Works to identify business needs and translate them into
+                        technical requirements. The Business Analyst helps to
+                        clarify the business logic of the project for the
+                        development team, ensuring that the solutions being
+                        developed meet the project objectives and solve the
+                        right problems.
+                    </li>
+                </ul>
+
+                <p>Scrum Master:</p>
+                <ul>
+                    <li>
+                        Ensures that the team follows Agile practices and
+                        principles, particularly those specific to Scrum. The
+                        Scrum Master facilitates Scrum ceremonies, removes
+                        impediments, and works to ensure that the team is
+                        productive and that the work environment is conducive to
+                        achieving the sprint goals.
+                    </li>
+                </ul>
+
+                <p>UX (User Experience) Designer:</p>
+                <ul>
+                    <li>
+                        Focuses on the usability, accessibility, and overall
+                        experience of the product for end-users. The UX Designer
+                        conducts research to understand user needs and designs
+                        the overall functionality of the product, often creating
+                        wireframes, prototypes, and user flows to guide
+                        development.
+                    </li>
+                </ul>
+
+                <p>Developer/Engineer:</p>
+                <ul>
+                    <li>
+                        Writes and maintains the source code of the application.
+                        Developers are involved in the technical design,
+                        implementation, testing, and debugging of the product.
+                        They work closely with other team members to ensure that
+                        features are developed according to requirements.
+                    </li>
+                </ul>
+
+                <p>
+                    QA (Quality Assurance)/SDET (Software Development Engineer
+                    in Test):
+                </p>
+                <ul>
+                    <li>
+                        Ensures the product meets quality standards by designing
+                        and implementing tests, reporting and managing defects,
+                        and verifying fixes. SDETs, in particular, combine
+                        software development skills with QA expertise to
+                        automate testing and create tools to improve test
+                        processes.
+                    </li>
+                </ul>
+
+                <p>DevOps:</p>
+                <ul>
+                    <li>
+                        Focuses on the practices, tools, and culture that enable
+                        the rapid, reliable deployment and operation of
+                        software. DevOps roles work to bridge the gap between
+                        development and operations, aiming for continuous
+                        integration (CI) and continuous delivery (CD) of code to
+                        production environments. They manage infrastructure,
+                        automate workflows, and monitor performance.
+                    </li>
+                </ul>
+                <p>
+                    Each role contributes to the Agile process, ensuring that
+                    the team efficiently and effectively delivers high-quality
+                    products that meet user needs and business goals.
+                </p>
             </SingleEssay>
             <SingleEssay question={"Q8:Sample question..."}>
                 Answer 8 goes here.
