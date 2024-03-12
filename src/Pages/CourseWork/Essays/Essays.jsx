@@ -212,7 +212,54 @@ const Essay = () => {
                     "Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?"
                 }
             >
-                Answer 5 goes here.
+                <p>
+                    In React, linking to resources such as images, CSS files, or
+                    other assets requires understanding the project structure
+                    and how React and its build tools (like Webpack) manage
+                    paths. Here's how you can handle root-relative and
+                    document-relative links in a React project:
+                </p>
+
+                <p>Root-Relative Paths:</p>
+                <ul>
+                    <li>
+                        <b>Description: </b>Root-relative paths start with a
+                        slash (/) and define the path to a resource from the
+                        root of your project. In a React application created
+                        with Create React App (CRA), the root is often the
+                        public directory.
+                    </li>
+
+                    <li>
+                        <b>Context: </b>When you build your React app, assets in
+                        the public folder are copied into the build folder,
+                        maintaining their paths relative to the root. Using
+                        root-relative paths makes it straightforward to refer to
+                        these assets. However, be cautious with root-relative
+                        paths when deploying to a subdirectory on a server, as
+                        the root might not correspond to the expected location.
+                    </li>
+                </ul>
+
+                <p>Document-Relative Paths</p>
+                <ul>
+                    <li>
+                        <b>Description: </b>Document-relative paths are defined
+                        in relation to the location of the current file. In
+                        React, this usually pertains to importing assets in
+                        JavaScript files or components.
+                    </li>
+
+                    <li>
+                        <b>Context: </b>This method leverages Webpack (or
+                        another bundler that’s part of your React toolchain) to
+                        resolve the path at build time. The asset is included in
+                        the build output, and its path is correctly resolved
+                        regardless of where the application is deployed. This
+                        approach benefits from Webpack's features like asset
+                        optimization and versioning.
+                    </li>
+                </ul>
             </SingleEssay>
             <SingleEssay
                 question={
