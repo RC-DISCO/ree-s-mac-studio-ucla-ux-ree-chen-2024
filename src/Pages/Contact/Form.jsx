@@ -40,7 +40,7 @@ const Form = ({ getSubmissions }) => {
     };
 
     return (
-        <FormStyled>
+        <FormStyled onSubmit={onSubmit}>
             {" "}
             <Input
                 id="name"
@@ -52,7 +52,7 @@ const Form = ({ getSubmissions }) => {
                 id="email"
                 labelText="Email"
                 inputType="email"
-                onChange={inputNameOnChange}
+                onChange={inputEmailOnChange}
                 value={inputEmail}
             />
             <TextArea
