@@ -19,8 +19,6 @@ const Contact = () => {
         getSubmissions();
     }, []);
 
-    console.log(submissions);
-
     return (
         <ContactStyled>
             <Inset>
