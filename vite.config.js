@@ -11,4 +11,8 @@ export default defineConfig({
     resolve: {
         alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
     },
+    build: {
+        outDir: "./build",
+    },
+    base: "/ree-s-mac-studio-ucla-ux-ree-chen-2024/",
 });
