@@ -8,26 +8,26 @@ export const slidesData = [
     {
         id: 1,
         image: slide1,
-        title: "Core Strength",
+        title: "Brown Sugar Boba Milk",
     },
     {
         id: 2,
         image: slide2,
-        title: "Staff In Action",
+        title: "Sunny Fruit Tea",
     },
     {
         id: 3,
         image: slide3,
-        title: "Senior",
+        title: "SunRight Mug",
     },
     {
         id: 4,
         image: slide4,
-        title: "Group Picture",
+        title: "Orea Brulee Boba Milk",
     },
     {
         id: 5,
         image: slide5,
-        title: "Aerial Open Gym",
+        title: "Original Tea",
     },
 ];

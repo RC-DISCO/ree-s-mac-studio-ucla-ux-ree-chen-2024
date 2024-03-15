@@ -42,8 +42,8 @@ const StaffMemberStyled = styled.div`
     }
 
     h3 {
-        color: white;
-        background-color: #014444;
+        color: #322600;
+        background-color: #ffbf00;
         padding: 5px 10px;
         margin: 0px;
     }
