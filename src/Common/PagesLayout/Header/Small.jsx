@@ -49,13 +49,13 @@ const SmallStyled = styled.div`
 
         z-index: 100;
 
-        background-color: #ffd600;
+        background-color: #ffbf00;
 
         a {
             display: block;
 
             padding: 10px;
-            border-bottom: solid 1px #999999;
+            border-bottom: solid 1px #322600;
 
             color: #322600;
             text-decoration: none;

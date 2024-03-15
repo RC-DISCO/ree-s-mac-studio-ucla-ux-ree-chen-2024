@@ -1,26 +1,27 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 /* Components ---------------------------*/
-import Inset from './Inset.jsx';
-import SiteLogo from './SiteLogo/SiteLogo.jsx';
+import Inset from "./Inset.jsx";
+import SiteLogo from "./SiteLogo/SiteLogo.jsx";
 
 const Footer = () => {
     return (
-        <FooterStyled className='Footer'>
+        <FooterStyled className="Footer">
             <Inset>
                 <div className="logo">
                     <SiteLogo />
                 </div>
                 <h2>
-                    CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and Respect :: Colorado Springs, CO
+                    “Sunright Tea Studio”, “flower cup” & “Shake 17 Times!” are
+                    registered trademarks of Sunright Corporation
                 </h2>
                 <div className="copyright">
-                    &copy; 2023. All rights reserved.
+                    &copy; copyright © 2022. All rights reserved.
                 </div>
             </Inset>
         </FooterStyled>
     );
-}
+};
 
 export default Footer;
 
@@ -41,14 +42,13 @@ const FooterStyled = styled.footer`
     }
 
     h2 {
-        color: white;
+        color: #322600;
         margin: 5px 0px;
         font-size: 14px;
     }
 
     .copyright {
         font-size: 14px;
-        color: white;
+        color: #322600;
     }
-
 `;

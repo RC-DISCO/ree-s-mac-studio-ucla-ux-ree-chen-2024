@@ -19,7 +19,7 @@ const SunAndMoon = () => {
     // HTML Layer
     return (
         <SunAndMoonStyled>
-            <h2>Pomotion</h2>
+            <h2>Promotion</h2>
 
             <img
                 src={imgSrc}
