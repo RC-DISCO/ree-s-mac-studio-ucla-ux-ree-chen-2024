@@ -28,7 +28,7 @@ const HamburgerStyled = styled.div`
     height: 34px;
 
     font-size: 30px;
-    color: white;
+    color: #322600;
 
     cursor: pointer;
     z-index: 101;
