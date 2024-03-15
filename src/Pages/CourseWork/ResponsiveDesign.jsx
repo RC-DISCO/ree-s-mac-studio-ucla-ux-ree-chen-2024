@@ -6,11 +6,11 @@ const ResponsiveDesign = () => {
 
     return (
         <ResponsiveDesignStyled>
-            <h2>Responsive Design</h2>
+            <h2>Buy Gift Cards</h2>
             <div className="boxes">
-                {isMediumAndUp && <div className="box box1">1</div>}
-                <div className="box box2">2</div>
-                <div className="box box3">3</div>
+                {isMediumAndUp && <div className="box box1">$100</div>}
+                <div className="box box2">$50</div>
+                <div className="box box3">$25</div>
             </div>
         </ResponsiveDesignStyled>
     );
@@ -27,30 +27,21 @@ const ResponsiveDesignStyled = styled.div`
     }
     .box {
         width: 100%;
-        max-width: 200px;
+        max-width: 400px;
         height: 200px;
-        line-height: 200px;
+        line-height: 170px;
         font-size: 50px;
         text-align: center;
         color: white;
-        background-color: teal;
+        border-radius: 20px;
+        border: solid 10px #ffbf00;
+        background-color: #322600;
         margin: 10px;
     }
     .box2 {
-        border-radius: 40px;
+        border-radius: 20px;
     }
     .box3 {
-        border-radius: 100px;
-    }
-    @media ${breakpoints.isMediumAndUp} {
-        .box {
-            background-color: indigo;
-        }
-    }
-
-    @media ${breakpoints.isLargeAndUp} {
-        .box {
-            background-color: green;
-        }
+        border-radius: 20px;
     }
 `;

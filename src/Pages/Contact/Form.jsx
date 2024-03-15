@@ -61,7 +61,7 @@ const Form = ({ getSubmissions }) => {
                 onChange={inputMessageOnChange}
                 value={inputMessage}
             />
-            <button type="submit">Send</button>
+            <button type="submit">Submit</button>
         </FormStyled>
     );
 };
@@ -90,16 +90,16 @@ const FormStyled = styled.form`
         padding: 10px;
         width: 100%;
         background-color: #eee;
-        border: solid 1px #999;
+        border: none;
 
         &:focus {
             background-color: #fff;
         }
     }
     button {
-        background-color: teal;
+        background-color: #ffd600;
         padding: 10px 5px;
-        color: #fff;
+        color: #322600;
         width: 150px;
         border: none;
         outline: none;
@@ -108,11 +108,11 @@ const FormStyled = styled.form`
 
         &:hover,
         & :focus {
-            background-color: #015353;
+            background-color: #ffbf00;
         }
 
         & :active {
-            background-color: #002020;
+            background-color: #;
         }
     }
 `;

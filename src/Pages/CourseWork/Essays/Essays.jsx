@@ -4,465 +4,129 @@ import SingleEssay from "./SingleEssay.jsx";
 const Essay = () => {
     return (
         <EssayStyled>
-            <h2>Essay</h2>
+            <h2>Menu</h2>
 
-            <SingleEssay
-                question={
-                    "Q1: Explain the difference between HTML, CSS and JavaScript"
-                }
-            >
-                <p> HTML (HyperText Markup Language)</p>
-                <ul>
-                    <li>Standard markup language for creating web pages.</li>
-                    <li>Provides the structure of a webpage. </li>
-                    <li>
-                        Uses tags to denote different types of content
-                        (headings, paragraphs, lists, links, images, etc.).
-                    </li>
-                    <li>Nota programming language, but a markup language.</li>
-                </ul>
-
-                <p>CSS (Cascading Style Sheets)</p>
-                <ul>
-                    <li>
-                        Style sheet language used for describing the
-                        presentation of a document written in HTML.
-                    </li>
-                    <li>
-                        Manages the visual aspect of a web page (layout, colors,
-                        fonts, etc.).{" "}
-                    </li>
-                    <li>
-                        Separates content (HTML) from design/style, allowing for
-                        more flexibility and control.
-                    </li>
-                    <li>Cancontrol multiple web pages' appearance at once.</li>
-                </ul>
-
-                <p>JavaScript</p>
-                <ul>
-                    <li>
-                        A programming language that allows you to create
-                        dynamically updating content, control multimedia,
-                        animate images, and much more.
-                    </li>
-                    <li>Makes websites interactive and functional. </li>
-                    <li>
-                        Can be used both on the client-side (in the browser) and
-                        server-side (on the server hosting the site).
-                    </li>
-                    <li>
-                        Offers more functionality compared to HTML and CSS which
-                        are not programming languages.
-                    </li>
-                </ul>
-            </SingleEssay>
-            <SingleEssay
-                question={"Q2: What is the difference between Git and Github?"}
-            >
-                <p>
-                    In the landscape of software development, Git and GitHub are
-                    frequently mentioned. While they are often used in
-                    conjunction, they serve distinct purposes within the realm
-                    of version control and project collaboration.
-                </p>
-
+            <SingleEssay question={"SUNRIGHT BOBA MILK"}>
+                <b>01 BROWN SUGAR BOBA MILK</b>
                 <ul>
                     <p>
-                        <b>Git:</b>
+                        Fresh milk sweetened with our house-made brown sugar and
+                        served with boba
                     </p>
-                    <li>
-                        <b>Version Control System: </b>Git is a distributed
-                        version control system.
-                    </li>
-                    <li>
-                        <b>Local Operations</b>: Mainly used for tracking
-                        changes in source code during software development. It
-                        allows multiple developers to work on the same project
-                        without interfering with each other.
-                    </li>
-                    <li>
-                        <b>Distributed Nature:</b> Every developer has the full
-                        history of their code repository locally, leading to
-                        faster operations.
-                    </li>
-                    <li>
-                        <b>Branching and Merging:</b> Offers robust tools for
-                        branching and merging, allowing developers to create
-                        separate branches for development and safely merge new
-                        features into the main codebase.
-                    </li>
-                    <li>
-                        <b>Open Source:</b> Free and open-source, can be used
-                        independently of any online hosting service.
-                    </li>
+                </ul>
 
+                <b>02 NamCREME BRÛLÉE BOBA MILK</b>
+                <ul>
                     <p>
-                        <b>GitHub:</b>
+                        Fresh milk sweetened with our house-made brown sugar and
+                        served with creme brûlée foam & boba
                     </p>
+                </ul>
 
-                    <li>
-                        <b>Web-based Hosting Service:</b> GitHub is an Internet
-                        hosting service for version control using Git.
-                    </li>
-                    <li>
-                        <b>Collaboration Features:</b> Provides a web-based
-                        graphical interface. It offers collaboration features
-                        such as bug tracking, feature requests, task management,
-                        and wikis for every project.
-                    </li>
-                    <li>
-                        <b>Centralized Source-Code Hosting:</b> Offers
-                        centralized repository hosting, making it easier for
-                        individuals and teams to manage Git repositories.
-                    </li>
-                    <li>
-                        <b>Integration with Other Services:</b> Provides
-                        integration with many development tools and platforms.
-                    </li>
+                <b>03 PUDDING BOBA MILK</b>
+                <ul>
+                    <p>
+                        Fresh milk sweetened with our house-made brown sugar and
+                        served with pudding and boba
+                    </p>
+                </ul>
+
+                <b>04 OREO BRÛLÉE BOBA MILK</b>
+                <ul>
+                    <p>
+                        Creme brûlée foam and crushed Oreos combined with
+                        sweetened fresh milk and served with boba
+                    </p>
+                </ul>
+
+                <b>05 RED BEAN BOBA MILK</b>
+                <ul>
+                    <p>
+                        Fresh milk sweetened with our house-made brown sugar and
+                        served with red bean and boba
+                    </p>
+                </ul>
+
+                <b>06 TARO BOBA MILK</b>
+                <ul>
+                    <p>
+                        Fresh milk sweetened with our house-made brown sugar and
+                        served with fresh taro and boba
+                    </p>
+                </ul>
+
+                <b>07 GRASS JELLY BOBA MILK</b>
+                <ul>
+                    <p>
+                        Fresh milk sweetened with our house-made brown sugar and
+                        topped with grass jelly and boba{" "}
+                    </p>
                 </ul>
             </SingleEssay>
-            <SingleEssay
-                question={
-                    "Q3: What is the difference between JQuery and React?"
-                }
-            >
-                <p>
-                    JQuery and React are both JavaScript libraries, but they
-                    serve different purposes and have distinct approaches to
-                    building web applications. Here's a comparison:
-                </p>
 
+            <SingleEssay question={"CHEESE FOAM"}>
+                <b>01 CEYLON CHEESE</b>
                 <ul>
-                    <li>
-                        <b>Focus:</b> JQuery focuses on simplifying DOM
-                        manipulation and event handling, while React focuses on
-                        building efficient, dynamic user interfaces through a
-                        component-based architecture.
-                    </li>
-                    <li>
-                        <b>Architecture:</b> JQuery is a library that offers a
-                        set of tools for common tasks, whereas React provides a
-                        structured framework for building web applications using
-                        a component-based approach.
-                    </li>
+                    <p>
+                        Ceylon black tea topped with a layer of freshly made
+                        sea-salt cheese foam
+                    </p>
+                </ul>
 
-                    <li>
-                        <b>Performance:</b> For dynamic applications with high
-                        user interaction and data updates, React's virtual DOM
-                        offers better performance by reducing the need to
-                        directly manipulate the DOM.
-                    </li>
+                <b>02 JASMINE CHEESE</b>
+                <ul>
+                    <p>
+                        asmine green tea topped with a layer of freshly made
+                        sea-salt cheese foam
+                    </p>
+                </ul>
 
-                    <li>
-                        <b>Modern Web Development:</b> React aligns more closely
-                        with modern web development practices, offering a more
-                        structured approach to building large-scale applications
-                        and improving code maintainability.
-                    </li>
+                <b>03 OLONG CHEESE</b>
+                <ul>
+                    <p>
+                        Roasted oolong tea topped with a layer of freshly made
+                        sea-salt cheese foam
+                    </p>
+                </ul>
+
+                <b>04 FOUR SEASONS CHEESE</b>
+                <ul>
+                    <p>
+                        Four seasons tea topped with a layer of freshly made
+                        sea-salt cheese foam
+                    </p>
+                </ul>
+
+                <b>05 WHITE PEACH OOLONG CHEESE</b>
+                <ul>
+                    <p>
+                        Lightly flavored white peach oolong tea topped with a
+                        layer of freshly made sea-salt cheese foam
+                    </p>
                 </ul>
             </SingleEssay>
-            <SingleEssay
-                question={
-                    "Q4: What is the difference between a Front-End and Back-End Developer?"
-                }
-            >
-                <p>
-                    The terms "Front-End" and "Back-End" Developer describe two
-                    key, distinct areas of expertise in web development,
-                    focusing on the different aspects of creating websites and
-                    web applications. Here's an overview of the differences:
-                </p>
+
+            <SingleEssay question={"FROSTIES"}>
+                <b>01 STRAWBERRY</b>
                 <ul>
-                    <li>
-                        <b>Focus: </b>Front-End Developers are concerned with
-                        the client-side of web development, which is what users
-                        interact with directly. Their work involves everything
-                        that a user sees, clicks, or uses on a website or web
-                        application, such as the layout, visuals, and
-                        interactivity.
-                    </li>
-
-                    <li>
-                        <b>Technologies: </b>They primarily use HTML, CSS, and
-                        JavaScript to build the visual interface of a website.
-                        Nowadays, Front-End Developers also work with frameworks
-                        and libraries such as React, Angular, or Vue.js to
-                        create dynamic and responsive designs.
-                    </li>
-
-                    <li>
-                        <b>Responsibilities: </b>
-                        <p>1. Creating responsive website designs.</p>
-                        <p>
-                            2.Implementing design principles to ensure the
-                            website's aesthetics and usability on various
-                            devices.
-                        </p>
-                        <p>3. Ensuring website performance optimization.</p>
-                        <p>
-                            4. Working closely with UX/UI designers to bring web
-                            designs to life.
-                        </p>
-                    </li>
-                </ul>
-            </SingleEssay>
-            <SingleEssay
-                question={
-                    "Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?"
-                }
-            >
-                <p>
-                    In React, linking to resources such as images, CSS files, or
-                    other assets requires understanding the project structure
-                    and how React and its build tools (like Webpack) manage
-                    paths. Here's how you can handle root-relative and
-                    document-relative links in a React project:
-                </p>
-
-                <p>Root-Relative Paths:</p>
-                <ul>
-                    <li>
-                        <b>Description: </b>Root-relative paths start with a
-                        slash (/) and define the path to a resource from the
-                        root of your project. In a React application created
-                        with Create React App (CRA), the root is often the
-                        public directory.
-                    </li>
-
-                    <li>
-                        <b>Context: </b>When you build your React app, assets in
-                        the public folder are copied into the build folder,
-                        maintaining their paths relative to the root. Using
-                        root-relative paths makes it straightforward to refer to
-                        these assets. However, be cautious with root-relative
-                        paths when deploying to a subdirectory on a server, as
-                        the root might not correspond to the expected location.
-                    </li>
+                    <p>
+                        Ice blended fresh strawberries smoothie served with a
+                        layer of rich cheese foam
+                    </p>
                 </ul>
 
-                <p>Document-Relative Paths</p>
+                <b>02 MATCHA RED BEAN</b>
                 <ul>
-                    <li>
-                        <b>Description: </b>Document-relative paths are defined
-                        in relation to the location of the current file. In
-                        React, this usually pertains to importing assets in
-                        JavaScript files or components.
-                    </li>
-
-                    <li>
-                        <b>Context: </b>This method leverages Webpack (or
-                        another bundler that’s part of your React toolchain) to
-                        resolve the path at build time. The asset is included in
-                        the build output, and its path is correctly resolved
-                        regardless of where the application is deployed. This
-                        approach benefits from Webpack's features like asset
-                        optimization and versioning.
-                    </li>
-                </ul>
-            </SingleEssay>
-            <SingleEssay
-                question={
-                    "Q6: What is the difference between jpg, gif, png and svg images?"
-                }
-            >
-                <p>JPG (JPEG) - Joint Photographic Experts Group:</p>
-                <ul>
-                    <li>
-                        <b>Compression: </b>Lossy, which means it reduces file
-                        size by permanently eliminating certain information,
-                        especially in areas of uniform color.
-                    </li>
-                    <li>
-                        <b>Best For: </b>Photographs and realistic images with
-                        smooth variations in color.
-                    </li>
-                    <li>
-                        <b>Transparency:</b> Does not support transparency.
-                    </li>
-                    <li>
-                        <b>Animation:</b> Does not support animation.
-                    </li>
-                </ul>
-                <p>GIF - Graphics Interchange Format:</p>
-                <ul>
-                    <li>
-                        <b>Compression: </b> Lossless, but limited to a
-                        256-color palette, making it unsuitable for full-color
-                        photographs.
-                    </li>
-                    <li>
-                        <b>Best For: </b>Simple animations and graphics with a
-                        small color palette.
-                    </li>
-                    <li>
-                        <b>Transparency:</b> Supports simple transparency by
-                        allowing one color to be marked as transparent.
-                    </li>
-                    <li>
-                        <b>Animation:</b> Supports basic animation.
-                    </li>
+                    <p>
+                        Ice blended matcha smoothie coated with matcha brûlée
+                        and topped with sweet red bean
+                    </p>
                 </ul>
 
-                <p>PNG - Portable Network Graphics:</p>
+                <b>03 FRESH TARO</b>
                 <ul>
-                    <li>
-                        <b>Compression: </b>Lossless, providing high-quality
-                        images but with larger file sizes compared to JPG.
-                    </li>
-                    <li>
-                        <b>Best For: </b>Images that require transparency or
-                        have sharp contrast edges like logos, text, and icons.
-                    </li>
-                    <li>
-                        <b>Transparency:</b> Supports alpha transparency
-                        (varying levels of transparency).
-                    </li>
-                    <li>
-                        <b>Animation:</b> PNG itself does not support animation,
-                        but the APNG (Animated PNG) extension does.
-                    </li>
+                    <p>Ice blended fresh taro smoothie served with real taro</p>
                 </ul>
-
-                <p>SVG - Scalable Vector Graphics:</p>
-                <ul>
-                    <li>
-                        <b>Compression: </b>Not applicable in the traditional
-                        sense because SVG files are XML-based vector images.
-                    </li>
-                    <li>
-                        <b>Best For: </b>Logos, icons, and illustrations that
-                        need to scale cleanly at any size. Great for responsive
-                        web design.
-                    </li>
-                    <li>
-                        <b>Transparency:</b> Supports transparency.
-                    </li>
-                    <li>
-                        <b>Animation:</b> Can be animated with CSS or
-                        JavaScript.
-                    </li>
-                </ul>
-            </SingleEssay>
-            <SingleEssay
-                question={
-                    "Q7: Define the following Agile roles: Product Manager, Product Owner, Business Analyst, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps"
-                }
-            >
-                <p>
-                    Agile methodologies, such as Scrum, emphasize flexible,
-                    iterative development and collaboration among
-                    cross-functional teams to deliver products. Each role within
-                    an Agile team has specific responsibilities that contribute
-                    to the project's success. Here are definitions for each
-                    role.
-                </p>
-                <p>Product Manager:</p>
-                <ul>
-                    <li>
-                        Oversees the development and success of a product from a
-                        high-level perspective. They focus on the product's
-                        strategy, roadmap, and feature definition, often
-                        liaising between the stakeholders and the development
-                        team to ensure the product meets business goals and user
-                        needs.
-                    </li>
-                </ul>
-
-                <p>Product Owner:</p>
-                <ul>
-                    <li>
-                        Acts as the liaison between the development team and the
-                        stakeholders. In Scrum, the Product Owner is responsible
-                        for managing the product backlog, prioritizing features,
-                        and ensuring that the team understands the items in the
-                        product backlog to the level needed. They represent the
-                        end users' and customers' interests.
-                    </li>
-                </ul>
-
-                <p>Business Analyst:</p>
-                <ul>
-                    <li>
-                        Works to identify business needs and translate them into
-                        technical requirements. The Business Analyst helps to
-                        clarify the business logic of the project for the
-                        development team, ensuring that the solutions being
-                        developed meet the project objectives and solve the
-                        right problems.
-                    </li>
-                </ul>
-
-                <p>Scrum Master:</p>
-                <ul>
-                    <li>
-                        Ensures that the team follows Agile practices and
-                        principles, particularly those specific to Scrum. The
-                        Scrum Master facilitates Scrum ceremonies, removes
-                        impediments, and works to ensure that the team is
-                        productive and that the work environment is conducive to
-                        achieving the sprint goals.
-                    </li>
-                </ul>
-
-                <p>UX (User Experience) Designer:</p>
-                <ul>
-                    <li>
-                        Focuses on the usability, accessibility, and overall
-                        experience of the product for end-users. The UX Designer
-                        conducts research to understand user needs and designs
-                        the overall functionality of the product, often creating
-                        wireframes, prototypes, and user flows to guide
-                        development.
-                    </li>
-                </ul>
-
-                <p>Developer/Engineer:</p>
-                <ul>
-                    <li>
-                        Writes and maintains the source code of the application.
-                        Developers are involved in the technical design,
-                        implementation, testing, and debugging of the product.
-                        They work closely with other team members to ensure that
-                        features are developed according to requirements.
-                    </li>
-                </ul>
-
-                <p>
-                    QA (Quality Assurance)/SDET (Software Development Engineer
-                    in Test):
-                </p>
-                <ul>
-                    <li>
-                        Ensures the product meets quality standards by designing
-                        and implementing tests, reporting and managing defects,
-                        and verifying fixes. SDETs, in particular, combine
-                        software development skills with QA expertise to
-                        automate testing and create tools to improve test
-                        processes.
-                    </li>
-                </ul>
-
-                <p>DevOps:</p>
-                <ul>
-                    <li>
-                        Focuses on the practices, tools, and culture that enable
-                        the rapid, reliable deployment and operation of
-                        software. DevOps roles work to bridge the gap between
-                        development and operations, aiming for continuous
-                        integration (CI) and continuous delivery (CD) of code to
-                        production environments. They manage infrastructure,
-                        automate workflows, and monitor performance.
-                    </li>
-                </ul>
-                <p>
-                    Each role contributes to the Agile process, ensuring that
-                    the team efficiently and effectively delivers high-quality
-                    products that meet user needs and business goals.
-                </p>
-            </SingleEssay>
-            <SingleEssay question={"Q8:Sample question..."}>
-                Answer 8 goes here.
             </SingleEssay>
         </EssayStyled>
     );

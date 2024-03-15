@@ -6,7 +6,7 @@ const CourseWorkLayout = () => {
     return (
         <CourseWorkLayoutStyled>
             <Inset>
-                <h1> Course Work </h1>
+                <h1> Product </h1>
                 <nav className="sublinks">
                     <NavLink to="/course-work">Essays</NavLink>
                     <NavLink to="/course-work/sun-and-moon">
